@@ -1,7 +1,7 @@
 [servers]
-project1 ansible_host=192.168.1.100 ansible_user=root ansible_password=toortoor ansible_port=1834
-project2 ansible_host=192.168.1.101 ansible_user=root ansible_password=toortoor ansible_port=1834
-project3 ansible_host=192.168.1.102 ansible_user=root ansible_password=toortoor ansible_port=1834
+project1 ansible_host=192.168.1.100 ansible_user=root ansible_password=toortoor
+project2 ansible_host=192.168.1.101 ansible_user=root ansible_password=toortoor
+project3 ansible_host=192.168.1.102 ansible_user=root ansible_password=toortoor
  
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
